@@ -49,3 +49,10 @@ _Σημείωση: Οι τρεις αυτές εφαρμογές είναι οι
 
 - το αρχείο "TaskerResponses" στο φάκελο "Tasker" και
 - το αρχείο "Kitsos.prj" στο φάκελο "projects".
+
+---
+
+## Coming soon...
+
+Home Assistant integration
+RaspController integration
