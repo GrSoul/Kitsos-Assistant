@@ -54,5 +54,5 @@ _Σημείωση: Οι τρεις αυτές εφαρμογές είναι οι
 
 ## Coming soon...
 
-Home Assistant integration
-RaspController integration
+- Home Assistant integration
+- RaspController integration
