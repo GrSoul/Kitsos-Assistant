@@ -2,10 +2,10 @@
 	<Profile sr="prof100" ve="2">
 		<cdate>1570384324793</cdate>
 		<clp>true</clp>
-		<edate>1579691797009</edate>
+		<edate>1587544422542</edate>
 		<id>100</id>
 		<mid0>101</mid0>
-		<nme>Κάτι Ωραίο</nme>
+		<nme>Talk. Κάτι Ωραίο</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -80,11 +80,10 @@
 	<Profile sr="prof102" ve="2">
 		<cdate>1570384729192</cdate>
 		<clp>true</clp>
-		<edate>1581759742611</edate>
+		<edate>1587557703940</edate>
 		<id>102</id>
-		<limit>true</limit>
 		<mid0>103</mid0>
-		<nme>Θυμισε Μου</nme>
+		<nme>Base. Υπενθύμιση</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -122,11 +121,11 @@
 					<VariableNames-type>java.lang.String</VariableNames-type>
 					<VariableValues>&lt;null&gt;</VariableValues>
 					<VariableValues-type>java.lang.String</VariableValues-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Command: "θύμισε (regex)"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command: "υπενθύμιση (?&lt;reminder&gt;.+) (regex)"</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<config_easy_commands>&lt;null&gt;</config_easy_commands>
 					<config_easy_commands-type>java.lang.String</config_easy_commands-type>
-					<configcommand>θύμισε</configcommand>
+					<configcommand>υπενθύμιση (?&lt;reminder&gt;.+)</configcommand>
 					<configcommand-type>java.lang.String</configcommand-type>
 					<configcommandid>&lt;null&gt;</configcommandid>
 					<configcommandid-type>java.lang.String</configcommandid-type>
@@ -140,24 +139,6 @@
 					<configregexsub-type>java.lang.Boolean</configregexsub-type>
 					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
 					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%avcomm
-First recognized Command
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%avcommnofilter
-First Command Without Filter
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%avcomms()
-All recognized commands
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%avcommsnofilter()
-All recognized commands without filter
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%avsource
-Source of the Voice Command
-Can be normal, continuous, test or googlenow&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%avword()
-Word Array
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%regexgroups()
-Regex Groups
-Regex Groups&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%regexmatch
-Regex Match
-Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
 					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>configcommand plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
@@ -177,7 +158,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof104" ve="2">
 		<cdate>1570385097389</cdate>
 		<clp>true</clp>
-		<edate>1581759758535</edate>
+		<edate>1587544859966</edate>
 		<id>104</id>
 		<limit>true</limit>
 		<mid0>105</mid0>
@@ -274,11 +255,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof107" ve="2">
 		<cdate>1570387179871</cdate>
 		<clp>true</clp>
-		<edate>1581759726149</edate>
+		<edate>1587544490143</edate>
 		<id>107</id>
 		<mid0>106</mid0>
 		<mid1>113</mid1>
-		<nme>Ειδήσεις</nme>
+		<nme>Apps. Ειδήσεις</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -352,7 +333,8 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Profile>
 	<Profile sr="prof108" ve="2">
 		<cdate>1570387341597</cdate>
-		<edate>1581759765823</edate>
+		<clp>true</clp>
+		<edate>1587557374525</edate>
 		<id>108</id>
 		<limit>true</limit>
 		<mid0>109</mid0>
@@ -449,7 +431,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof112" ve="2">
 		<cdate>1570718420489</cdate>
 		<clp>true</clp>
-		<edate>1579692252449</edate>
+		<edate>1587544549355</edate>
 		<id>112</id>
 		<limit>true</limit>
 		<mid0>13</mid0>
@@ -528,11 +510,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof115" ve="2">
 		<cdate>1570730490935</cdate>
 		<clp>true</clp>
-		<edate>1579691790943</edate>
+		<edate>1587556242010</edate>
 		<id>115</id>
 		<mid0>114</mid0>
 		<mid1>113</mid1>
-		<nme>Σημειώσεις</nme>
+		<nme>Base. Σημειώσεις</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -607,11 +589,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof46" ve="2">
 		<cdate>1570085280995</cdate>
 		<clp>true</clp>
-		<edate>1579690924308</edate>
+		<edate>1587544194508</edate>
 		<id>46</id>
 		<mid0>11</mid0>
 		<mid1>113</mid1>
-		<nme>Φακός</nme>
+		<nme>Base. Φακός</nme>
 		<Event sr="con0" ve="2">
 			<cname>Φακός</cname>
 			<code>41628340</code>
@@ -687,10 +669,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof48" ve="2">
 		<cdate>1570085281023</cdate>
 		<clp>true</clp>
-		<edate>1581759483418</edate>
+		<edate>1587544219179</edate>
 		<id>48</id>
 		<mid0>14</mid0>
-		<nme>Αποστολή SMS</nme>
+		<nme>Base. Αποστολή SMS</nme>
 		<Event sr="con0" ve="2">
 			<cname>Στείλτε μήνυμα</cname>
 			<code>41628340</code>
@@ -766,11 +748,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof49" ve="2">
 		<cdate>1570085281039</cdate>
 		<clp>true</clp>
-		<edate>1570727848302</edate>
+		<edate>1587544172420</edate>
 		<id>49</id>
 		<mid0>26</mid0>
 		<mid1>113</mid1>
-		<nme>Δόνηση</nme>
+		<nme>Base. Δόνηση</nme>
 		<Event sr="con0" ve="2">
 			<cname>Δόνηση</cname>
 			<code>41628340</code>
@@ -846,11 +828,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof51" ve="2">
 		<cdate>1570085281068</cdate>
 		<clp>true</clp>
-		<edate>1570727861330</edate>
+		<edate>1587544165640</edate>
 		<id>51</id>
 		<mid0>27</mid0>
 		<mid1>113</mid1>
-		<nme>Ειδοποιήσεις</nme>
+		<nme>Base. Ειδοποιήσεις</nme>
 		<Event sr="con0" ve="2">
 			<cname>Ειδοποιήσεις</cname>
 			<code>41628340</code>
@@ -920,11 +902,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof52" ve="2">
 		<cdate>1570085281088</cdate>
 		<clp>true</clp>
-		<edate>1570727873047</edate>
+		<edate>1587544138056</edate>
 		<id>52</id>
 		<mid0>28</mid0>
 		<mid1>113</mid1>
-		<nme>Απενεργοποίηση / Επανεκκίνηση</nme>
+		<nme>Base. Απενεργοποίηση / Επανεκκίνηση</nme>
 		<Event sr="con0" ve="2">
 			<cname>Απεν. / Επαν.</cname>
 			<code>41628340</code>
@@ -994,10 +976,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof53" ve="2">
 		<cdate>1570085281101</cdate>
 		<clp>true</clp>
-		<edate>1581759498470</edate>
+		<edate>1587544258505</edate>
 		<id>53</id>
 		<mid0>29</mid0>
-		<nme>Φωτογραφία</nme>
+		<nme>Camera. Φωτογραφία</nme>
 		<Event sr="con0" ve="2">
 			<cname>Φωτογραφία</cname>
 			<code>41628340</code>
@@ -1067,10 +1049,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof54" ve="2">
 		<cdate>1570085281114</cdate>
 		<clp>true</clp>
-		<edate>1581759503453</edate>
+		<edate>1587544271215</edate>
 		<id>54</id>
 		<mid0>30</mid0>
-		<nme>Selfie</nme>
+		<nme>Camera. Selfie</nme>
 		<Event sr="con0" ve="2">
 			<cname>Selfie</cname>
 			<code>41628340</code>
@@ -1144,10 +1126,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof55" ve="2">
 		<cdate>1570085281125</cdate>
 		<clp>true</clp>
-		<edate>1581759508620</edate>
+		<edate>1587544179672</edate>
 		<id>55</id>
 		<mid0>31</mid0>
-		<nme>GPS</nme>
+		<nme>Base. GPS</nme>
 		<Event sr="con0" ve="2">
 			<cname>GPS</cname>
 			<code>41628340</code>
@@ -1217,11 +1199,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof56" ve="2">
 		<cdate>1570085281138</cdate>
 		<clp>true</clp>
-		<edate>1581759539279</edate>
+		<edate>1587555682925</edate>
 		<id>56</id>
 		<mid0>32</mid0>
 		<mid1>113</mid1>
-		<nme>Καιρός</nme>
+		<nme>Search. Καιρός</nme>
 		<Event sr="con0" ve="2">
 			<cname>Καιρός</cname>
 			<code>41628340</code>
@@ -1297,11 +1279,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof59" ve="2">
 		<cdate>1570085281176</cdate>
 		<clp>true</clp>
-		<edate>1581759574015</edate>
+		<edate>1587544298311</edate>
 		<id>59</id>
 		<mid0>40</mid0>
 		<mid1>113</mid1>
-		<nme>Αναζήτηση</nme>
+		<nme>Search. Αναζήτηση</nme>
 		<Event sr="con0" ve="2">
 			<cname>Ψάξε για</cname>
 			<code>41628340</code>
@@ -1377,11 +1359,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof60" ve="2">
 		<cdate>1570085281188</cdate>
 		<clp>true</clp>
-		<edate>1581759592195</edate>
+		<edate>1587544342404</edate>
 		<id>60</id>
 		<mid0>41</mid0>
 		<mid1>113</mid1>
-		<nme>Πλοήγηση</nme>
+		<nme>Apps. Πλοήγηση</nme>
 		<Event sr="con0" ve="2">
 			<cname>Πλοήγηση</cname>
 			<code>41628340</code>
@@ -1457,11 +1439,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof61" ve="2">
 		<cdate>1570085281201</cdate>
 		<clp>true</clp>
-		<edate>1581759672930</edate>
+		<edate>1587544353960</edate>
 		<id>61</id>
 		<mid0>45</mid0>
 		<mid1>113</mid1>
-		<nme>Φως Δωμάτιο</nme>
+		<nme>Home. Φως Δωμάτιο</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -1530,10 +1512,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof62" ve="2">
 		<cdate>1570085281216</cdate>
 		<clp>true</clp>
-		<edate>1581759614660</edate>
+		<edate>1587544391857</edate>
 		<id>62</id>
 		<mid0>2</mid0>
-		<nme>Δεν Κατάλαβα</nme>
+		<nme>Talk. Δεν Κατάλαβα</nme>
 		<Event sr="con0" ve="2">
 			<code>2032146794</code>
 			<pri>0</pri>
@@ -1572,10 +1554,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof63" ve="2">
 		<cdate>1570085281229</cdate>
 		<clp>true</clp>
-		<edate>1581759630641</edate>
+		<edate>1587544407587</edate>
 		<id>63</id>
 		<mid0>8</mid0>
-		<nme>Βρισιές</nme>
+		<nme>Talk. Βρισιές</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -1650,11 +1632,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof65" ve="2">
 		<cdate>1570085281253</cdate>
 		<clp>true</clp>
-		<edate>1579691606706</edate>
+		<edate>1587544209321</edate>
 		<id>65</id>
 		<mid0>10</mid0>
 		<mid1>113</mid1>
-		<nme>Αντίστροφη Μέτρηση</nme>
+		<nme>Base. Αντίστροφη Μέτρηση</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -1729,7 +1711,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof66" ve="2">
 		<cdate>1570085281268</cdate>
 		<clp>true</clp>
-		<edate>1570728072408</edate>
+		<edate>1587545023964</edate>
 		<id>66</id>
 		<limit>true</limit>
 		<mid0>12</mid0>
@@ -1756,6 +1738,8 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 					<Precision-type>java.lang.String</Precision-type>
 					<ProfileName>&lt;null&gt;</ProfileName>
 					<ProfileName-type>java.lang.String</ProfileName-type>
+					<Responses>&lt;null&gt;</Responses>
+					<Responses-type>java.lang.String</Responses-type>
 					<Source>&lt;null&gt;</Source>
 					<Source-type>java.lang.String</Source-type>
 					<Substitutions>&lt;null&gt;</Substitutions>
@@ -1770,9 +1754,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 					<VariableNames-type>java.lang.String</VariableNames-type>
 					<VariableValues>&lt;null&gt;</VariableValues>
 					<VariableValues-type>java.lang.String</VariableValues-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Command: "ξυπνητήρι στις (?&lt;ώρες&gt;.+) και (?&lt;λεπτά&gt;.+) (regex)"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command: "ξυπνητήρι (?&lt;ώρες&gt;.+) και (?&lt;λεπτά&gt;.+) (regex)"</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<configcommand>ξυπνητήρι στις (?&lt;ώρες&gt;.+) και (?&lt;λεπτά&gt;.+)</configcommand>
+					<config_easy_commands>&lt;null&gt;</config_easy_commands>
+					<config_easy_commands-type>java.lang.String</config_easy_commands-type>
+					<configcommand>ξυπνητήρι (?&lt;ώρες&gt;.+) και (?&lt;λεπτά&gt;.+)</configcommand>
 					<configcommand-type>java.lang.String</configcommand-type>
 					<configcommandid>&lt;null&gt;</configcommandid>
 					<configcommandid-type>java.lang.String</configcommandid-type>
@@ -1786,6 +1772,30 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 					<configregexsub-type>java.lang.Boolean</configregexsub-type>
 					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
 					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%avcomm
+First recognized Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%avcommnofilter
+First Command Without Filter
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%avcomms()
+All recognized commands
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%avcommsnofilter()
+All recognized commands without filter
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%avsource
+Source of the Voice Command
+Can be normal, continuous, test or googlenow&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%avword()
+Word Array
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%regexgroups()
+Regex Groups
+Regex Groups&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%regexmatch
+Regex Match
+Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%λεπτά
+First "λεπτά"
+First match for group "λεπτά"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ώρες
+First "ώρες"
+First match for group "ώρες"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>configcommand plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
@@ -1803,11 +1813,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof83" ve="2">
 		<cdate>1570085281681</cdate>
 		<clp>true</clp>
-		<edate>1570869546859</edate>
+		<edate>1587544360921</edate>
 		<id>83</id>
 		<mid0>35</mid0>
 		<mid1>113</mid1>
-		<nme>Φως Διάδρομος</nme>
+		<nme>Home. Φως Διάδρομος</nme>
 		<Event sr="con0" ve="2">
 			<cname>Φως Στο Διάδρομο</cname>
 			<code>41628340</code>
@@ -1883,11 +1893,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof84" ve="2">
 		<cdate>1570085281699</cdate>
 		<clp>true</clp>
-		<edate>1570728108864</edate>
+		<edate>1587544367480</edate>
 		<id>84</id>
 		<mid0>36</mid0>
 		<mid1>113</mid1>
-		<nme>Φως Σαλόνι</nme>
+		<nme>Home. Φως Σαλόνι</nme>
 		<Event sr="con0" ve="2">
 			<cname>Φως Στο Σαλόνι</cname>
 			<code>41628340</code>
@@ -1963,11 +1973,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof85" ve="2">
 		<cdate>1570085281722</cdate>
 		<clp>true</clp>
-		<edate>1570384619211</edate>
+		<edate>1587544226540</edate>
 		<id>85</id>
 		<mid0>3</mid0>
 		<mid1>113</mid1>
-		<nme>Ημερολόγιο</nme>
+		<nme>Apps. Ημερολόγιο</nme>
 		<Event sr="con0" ve="2">
 			<cname>Ημερολόγιο</cname>
 			<code>41628340</code>
@@ -2043,11 +2053,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof86" ve="2">
 		<cdate>1570085281749</cdate>
 		<clp>true</clp>
-		<edate>1488992634375</edate>
+		<edate>1587544186571</edate>
 		<id>86</id>
 		<mid0>4</mid0>
 		<mid1>113</mid1>
-		<nme>Wi-Fi</nme>
+		<nme>Base. Wi-Fi</nme>
 		<Event sr="con0" ve="2">
 			<cname>Wi-Fi</cname>
 			<code>41628340</code>
@@ -2121,11 +2131,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof88" ve="2">
 		<cdate>1570085281807</cdate>
 		<clp>true</clp>
-		<edate>1570883117268</edate>
+		<edate>1587544202144</edate>
 		<id>88</id>
 		<mid0>6</mid0>
 		<mid1>113</mid1>
-		<nme>Bluetooth</nme>
+		<nme>Base. Bluetooth</nme>
 		<Event sr="con0" ve="2">
 			<cname>Bluetooth</cname>
 			<code>41628340</code>
@@ -2192,28 +2202,13 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 			<Str sr="arg2" ve="3">com.joaomgcd.autovoice.activity.ActivityConfigReceiveVoiceEvent</Str>
 		</Event>
 	</Profile>
-	<Profile sr="prof90" ve="2">
-		<cdate>1570222007577</cdate>
-		<clp>true</clp>
-		<edate>1581759685236</edate>
-		<id>90</id>
-		<mid0>91</mid0>
-		<nme>Καλωσήρθες</nme>
-		<State sr="con0" ve="2">
-			<code>160</code>
-			<Str sr="arg0" ve="3">Ubuntu/Ubuntu_5G</Str>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-		</State>
-	</Profile>
 	<Profile sr="prof92" ve="2">
 		<cdate>1570370693897</cdate>
 		<clp>true</clp>
-		<edate>1581759707069</edate>
+		<edate>1587544398781</edate>
 		<id>92</id>
 		<mid0>89</mid0>
-		<nme>Ανέκδοτα</nme>
+		<nme>Talk. Ανέκδοτα</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -2288,11 +2283,11 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof93" ve="2">
 		<cdate>1570378296557</cdate>
 		<clp>true</clp>
-		<edate>1570883110779</edate>
+		<edate>1587544373976</edate>
 		<id>93</id>
 		<mid0>96</mid0>
 		<mid1>113</mid1>
-		<nme>Ολα Τα Φωτα</nme>
+		<nme>Home. Ολα Τα Φωτα</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -2367,10 +2362,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof95" ve="2">
 		<cdate>1570305520145</cdate>
 		<clp>true</clp>
-		<edate>1581759700800</edate>
+		<edate>1587544384291</edate>
 		<id>95</id>
 		<mid0>94</mid0>
-		<nme>Κίτσο! Σούλα!</nme>
+		<nme>Talk. Κίτσο! Σούλα!</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -2445,10 +2440,10 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Profile sr="prof98" ve="2">
 		<cdate>1570383090038</cdate>
 		<clp>true</clp>
-		<edate>1579691729652</edate>
+		<edate>1587544479519</edate>
 		<id>98</id>
 		<mid0>99</mid0>
-		<nme>Μπαταρία</nme>
+		<nme>Talk. Μπαταρία</nme>
 		<Event sr="con0" ve="2">
 			<code>41628340</code>
 			<pri>0</pri>
@@ -2523,8 +2518,8 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	<Project sr="proj0" ve="2">
 		<cdate>1487615792840</cdate>
 		<name>Κίτσος</name>
-		<pids>48,46,66,83,95,62,104,102,86,60,63,61,65,88,98,108,52,49,59,107,51,53,55,85,93,84,56,90,112,115,54,100,92</pids>
-		<tids>27,109,36,40,6,114,113,32,11,106,96,29,89,105,101,94,103,99,8,30,28,4,111,31,110,13,35,3,12,91,41,26,10,45,14,2,97,9,116</tids>
+		<pids>88,56,62,84,49,98,55,59,66,112,51,60,93,108,46,95,63,107,65,86,61,92,102,85,115,53,54,100,48,104,52,83</pids>
+		<tids>96,10,45,4,113,13,109,29,114,91,31,106,27,6,12,8,110,101,28,35,99,94,40,41,3,30,11,32,14,89,116,2,36,26,103,105,97</tids>
 		<Kid sr="Kid">
 			<feat0>android.hardware.bluetooth:y</feat0>
 			<feat1>android.hardware.camera.front:y</feat1>
@@ -2589,11 +2584,13 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task103">
 		<cdate>1570384739442</cdate>
-		<edate>1581759742611</edate>
+		<edate>1587557506110</edate>
 		<id>103</id>
-		<nme>Θύμισε</nme>
+		<nme>Υπενθύμιση</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>559</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3"/>
 			<Str sr="arg1" ve="3">default:default</Str>
 			<Int sr="arg2" val="3"/>
@@ -2603,12 +2600,29 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
+		<Action sr="act1" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Υπενθύμιση</Str>
+			<Str sr="arg1" ve="3">%reminder</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_action_done_all</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
 	</Task>
 	<Task sr="task105">
 		<cdate>1570385107793</cdate>
-		<edate>1581759758535</edate>
+		<edate>1587557298145</edate>
 		<id>105</id>
-		<nme>Μουσική</nme>
+		<nme>-Μουσική</nme>
 		<Action sr="act0" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3"/>
@@ -2623,7 +2637,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task106">
 		<cdate>1570387109803</cdate>
-		<edate>1581759726149</edate>
+		<edate>1587557306207</edate>
 		<id>106</id>
 		<nme>Ειδήσεις</nme>
 		<pri>6</pri>
@@ -2641,9 +2655,9 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task109">
 		<cdate>1570387353431</cdate>
-		<edate>1581759765823</edate>
+		<edate>1587557389426</edate>
 		<id>109</id>
-		<nme>Λίστα Αγορών</nme>
+		<nme>-Λίστα Αγορών</nme>
 		<Action sr="act0" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3"/>
@@ -2658,7 +2672,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task11">
 		<cdate>1484772431418</cdate>
-		<edate>1570727806388</edate>
+		<edate>1587532086098</edate>
 		<id>11</id>
 		<nme>Φακος</nme>
 		<pri>6</pri>
@@ -2669,9 +2683,9 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task110">
 		<cdate>1570616094294</cdate>
-		<edate>1570733393997</edate>
+		<edate>1587557406546</edate>
 		<id>110</id>
-		<nme>Μεταφραση</nme>
+		<nme>-Μεταφραση</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>877</code>
@@ -2686,22 +2700,6 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 			<Str sr="arg7" ve="3">com.google.android.apps.translate</Str>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task111">
-		<cdate>1570617445249</cdate>
-		<edate>1570618325584</edate>
-		<id>111</id>
-		<nme>Υπενθύμιση</nme>
-		<Action sr="act0" ve="7">
-			<code>903</code>
-			<Str sr="arg0" ve="3">Τι Θες Να Σου Θυμίσω;</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="30"/>
-			<Int sr="arg5" val="0"/>
-			<Bundle sr="arg6"/>
 		</Action>
 	</Task>
 	<Task sr="task113">
@@ -2735,7 +2733,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task114">
 		<cdate>1570730335954</cdate>
-		<edate>1570883367791</edate>
+		<edate>1587557410425</edate>
 		<id>114</id>
 		<nme>Σημειώσεις</nme>
 		<pri>6</pri>
@@ -2762,9 +2760,9 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task116">
 		<cdate>1570732560642</cdate>
-		<edate>1570737527195</edate>
+		<edate>1587557436058</edate>
 		<id>116</id>
-		<nme>Ηχογράφηση</nme>
+		<nme>-Ηχογράφηση</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>455</code>
@@ -2780,7 +2778,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task12">
 		<cdate>1487707585924</cdate>
-		<edate>1570728072408</edate>
+		<edate>1587544900188</edate>
 		<id>12</id>
 		<nme>Ξυπνητήρι</nme>
 		<pri>100</pri>
@@ -2800,7 +2798,7 @@ Regex Match&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/
 	</Task>
 	<Task sr="task13">
 		<cdate>1487088951032</cdate>
-		<edate>1579692252449</edate>
+		<edate>1587544549355</edate>
 		<id>13</id>
 		<nme>Κλήσεις</nme>
 		<pri>6</pri>
@@ -2866,7 +2864,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task14">
 		<cdate>1487249077840</cdate>
-		<edate>1581759483418</edate>
+		<edate>1587532093533</edate>
 		<id>14</id>
 		<nme>SMS</nme>
 		<pri>6</pri>
@@ -2889,7 +2887,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task2">
 		<cdate>1487685592967</cdate>
-		<edate>1581759614660</edate>
+		<edate>1587532224897</edate>
 		<id>2</id>
 		<nme>Αρνητικές Απαντήσεις</nme>
 		<pri>6</pri>
@@ -2951,7 +2949,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task29">
 		<cdate>1487279748925</cdate>
-		<edate>1581759498470</edate>
+		<edate>1587535340814</edate>
 		<id>29</id>
 		<nme>Φωτογραφία</nme>
 		<pri>100</pri>
@@ -2982,7 +2980,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task3">
 		<cdate>1489246226581</cdate>
-		<edate>1570730325384</edate>
+		<edate>1587557168502</edate>
 		<id>3</id>
 		<nme>Ημερολόγιο</nme>
 		<pri>6</pri>
@@ -3052,13 +3050,13 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task32">
 		<cdate>1487280463365</cdate>
-		<edate>1581759539279</edate>
+		<edate>1587555682925</edate>
 		<id>32</id>
 		<nme>Καιρός</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>100</code>
-			<Str sr="arg0" ve="3">καιρός Θεσσαλονίκη</Str>
+			<Str sr="arg0" ve="3">καιρός</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
@@ -3097,7 +3095,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task36">
 		<cdate>1490301846249</cdate>
-		<edate>1570728108864</edate>
+		<edate>1587533941894</edate>
 		<id>36</id>
 		<nme>Φως Σαλόνι</nme>
 		<pri>6</pri>
@@ -3141,7 +3139,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task40">
 		<cdate>1487530797752</cdate>
-		<edate>1581759574015</edate>
+		<edate>1587557185841</edate>
 		<id>40</id>
 		<nme>Αναζήτηση</nme>
 		<pri>6</pri>
@@ -3153,7 +3151,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task41">
 		<cdate>1487531598039</cdate>
-		<edate>1581759592195</edate>
+		<edate>1587557188355</edate>
 		<id>41</id>
 		<nme>Πλοήγηση</nme>
 		<pri>100</pri>
@@ -3184,7 +3182,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task45">
 		<cdate>1487540886355</cdate>
-		<edate>1581759672930</edate>
+		<edate>1587533547398</edate>
 		<id>45</id>
 		<nme>Φως Δωμάτιο</nme>
 		<pri>6</pri>
@@ -3227,7 +3225,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task8">
 		<cdate>1487706169157</cdate>
-		<edate>1581759622298</edate>
+		<edate>1587557148540</edate>
 		<id>8</id>
 		<nme>Βρισιές</nme>
 		<pri>100</pri>
@@ -3257,7 +3255,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task89">
 		<cdate>1570370556901</cdate>
-		<edate>1581759707069</edate>
+		<edate>1587557164487</edate>
 		<id>89</id>
 		<nme>Ανέκδοτα</nme>
 		<pri>6</pri>
@@ -3285,27 +3283,9 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg7" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task9">
-		<cdate>1570909853518</cdate>
-		<edate>1572793735934</edate>
-		<id>9</id>
-		<nme>Max</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">Ποιος έκλασε;</Str>
-			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task91">
 		<cdate>1570222020968</cdate>
-		<edate>1581759685236</edate>
+		<edate>1587557151888</edate>
 		<id>91</id>
 		<nme>Καλωσήρθες</nme>
 		<pri>100</pri>
@@ -3335,7 +3315,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task94">
 		<cdate>1570304643660</cdate>
-		<edate>1581759700800</edate>
+		<edate>1587557144083</edate>
 		<id>94</id>
 		<nme>Τι Θελεις;</nme>
 		<pri>6</pri>
@@ -3450,7 +3430,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task96">
 		<cdate>1570378306327</cdate>
-		<edate>1570728157364</edate>
+		<edate>1587532055378</edate>
 		<id>96</id>
 		<nme>Ολα Τα Φώτα</nme>
 		<pri>6</pri>
@@ -3483,9 +3463,9 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task97">
 		<cdate>1570379665160</cdate>
-		<edate>1570711349033</edate>
+		<edate>1587557282448</edate>
 		<id>97</id>
-		<nme>Ημερολογιο Με Φωνή</nme>
+		<nme>-Ημερολογιο Με Φωνή</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>596</code>
@@ -3676,7 +3656,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task99">
 		<cdate>1570383098593</cdate>
-		<edate>1570727778076</edate>
+		<edate>1587557198810</edate>
 		<id>99</id>
 		<nme>Μπαταρία</nme>
 		<pri>6</pri>
