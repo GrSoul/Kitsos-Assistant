@@ -26,7 +26,7 @@ It is built out of the need for a Greek-speaking voice assistant but it can be m
 
 _Σημείωση: Οι εντολές μπορούν να ενεργοποιηθούν και με άλλες λέξεις κλειδιά, ενώ μπορούν να χρησιμοποιηθούν και σε προτάσεις. Για παράδειγμα δε χρειάζεται να πεις απλά "Ανέκδοτο", αλλά μπορείς να πεις "Πες μου ένα ανέκδοτο" ή θέλω να ακούσω ένα ανέκδοτο"._
 
-[![Kitsos Assistant]({https://1.bp.blogspot.com/-ONsX924ANGE/WLcvJ7bZvOI/AAAAAAAA5dE/EMkIqUaRw_8GLt9iEubUDKXie6re2CGZQCLcB/s1600/Kitsos.png})]({https://youtu.be/yT2FeMfLwMI} "Kitsos Assistant")
+[Βίντεο](https://youtu.be/yT2FeMfLwMI)
 
 ---
 
